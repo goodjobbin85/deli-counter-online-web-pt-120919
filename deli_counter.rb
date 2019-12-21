@@ -8,7 +8,7 @@ end
 def line(deli) 
   if !deli.empty? 
     puts "The line is currently:" 
-    deli.each_with_index do |name, index| 
+    deli.each_with_index do |index, name| 
       puts "#{index + 1}. #{name} " 
     end 
   else 
