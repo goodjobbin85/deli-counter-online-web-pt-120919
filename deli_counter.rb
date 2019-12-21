@@ -10,6 +10,9 @@ def line(deli)
     final_line = "The line is currently: " 
     deli.each_with_index do |name, index| 
       final_line << "#{index + 1}. #{name} " 
+      if index == -1
+        final_line << "#{index + 1}. #{name}" 
+      end
     end 
     puts final_line
   else 
