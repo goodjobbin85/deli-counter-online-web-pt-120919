@@ -10,7 +10,7 @@ def line(deli)
     final_line = "The line is currently: " 
     deli.each_with_index do |name, index| 
       final_line << "#{index + 1}. #{name} " 
-      if deli.index[name] == -1
+      if deli.index(name) == -1
         final_line << "#{index + 1}. #{name}" 
       end
     end 
