@@ -11,7 +11,7 @@ def line(deli)
     deli.each_with_index do |name, index| 
       final_line << "#{index + 1}. #{name} " 
     end 
-    final_line
+    puts final_line
   else 
     puts "The line is currently empty." 
   end
