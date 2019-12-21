@@ -25,4 +25,4 @@ def now_serving(deli)
   end
 end
 
-puts line(klaus)
+line(klaus)
