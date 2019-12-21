@@ -11,6 +11,7 @@ def line(deli)
     deli.each_with_index do |name, index| 
       final_line << "#{index + 1}. #{name} " 
       if index == -1
+        puts index
         final_line << "#{index + 1}. #{name}" 
       end
     end 
