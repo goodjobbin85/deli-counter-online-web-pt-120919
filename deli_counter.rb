@@ -7,10 +7,11 @@ end
 
 def line(deli) 
   if !deli.empty? 
-    puts "The line is currently:" 
+    final_line = "The line is currently: " 
     deli.each_with_index do |name, index| 
-      puts "#{index + 1}. #{name} " 
+      final_line << "#{index + 1}. #{name} " 
     end 
+    final_line
   else 
     puts "The line is currently empty." 
   end
