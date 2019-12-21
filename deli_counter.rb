@@ -1,5 +1,5 @@
 # Write your code here.
-
+klaus = ["jim", "tim", "tom"]
 def take_a_number(deli, name) 
   deli.push(name)
   puts "Welcome, #{name}. You are number #{deli.index(name) + 1} in line."
