@@ -12,7 +12,7 @@ def line(deli)
       final_line << "#{index + 1}. #{name} "
     end  
 
-    puts final_line.chomp
+    puts final_line
   else 
     puts "The line is currently empty." 
   end
