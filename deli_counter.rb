@@ -8,10 +8,10 @@ end
 def line(deli) 
   if !deli.empty? 
     final_line = "The line is currently: " 
-        deli.each_with_index do |name, index| 
-          final_line << "#{index + 1}. #{name} "
-        end  
-    end
+    deli.each_with_index do |name, index| 
+      final_line << "#{index + 1}. #{name} "
+    end  
+
     puts final_line
   else 
     puts "The line is currently empty." 
